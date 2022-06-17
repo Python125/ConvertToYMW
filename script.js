@@ -16,8 +16,6 @@ const calculateTimimg = d => {
          d--;
       }
    };
-   return {
-      years, months, weeks, days
-   };
+    return years + ' years: ' + months + ' months: ' + weeks + ' weeks ' + days + ' days';
 };
 console.log(calculateTimimg());
