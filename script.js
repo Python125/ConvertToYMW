@@ -20,4 +20,4 @@ const calculateTimimg = d => {
       years, months, weeks, days
    };
 };
-console.log(calculateTimimg(days));
+console.log(calculateTimimg());
